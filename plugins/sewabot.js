@@ -10,19 +10,49 @@ let handler = async (m, { conn }) => {
   let d = await fetch(c).then(a => a.buffer())
   let prepare = await require('@adiwajshing/baileys').generateWAMessageFromContent(m.key.remoteJid,{listMessage:{
   title: `${await conn.getName(conn.user.jid)}`,
-  description: ` *• SEWA BOT & UP TO PREMIUM •*
+  description: ` *• SEWA BOT & JADIBOT •*
         
-1. Grup / 30 Hari
-Rp. 15.000 Dana
-Rp. 15.000 Pulsa
+1.```🤖Jasa Sewa Bot By DaniBoTz🤖```
+ *_🟪LIST SEWA BOT_*
 
-2. Premium / 30 Hari
-Rp. 10.000 Dana
-Rp. 10.000 Pulsa
+```📍1Minggu:3K```
+```📍1Bulan:5K```
+```📍Permanen:10K```
+▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬
+*FITUR BOT*
+```🤖 Hentai 18+
+🤖 Antilink
+🤖 Hidetag
+🤖 Menu Game
+🤖 Sticker
+🤖 Fitur 100+```
+▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬
+*Kelebihan Bot* 🫥
+```➡️ On 24 Jam
+➡️ Bukan Wibusoft
+➡️ Anti Delay```
+▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬
+*LIST HARGA JADI BOT🤖:*
+```30K ➡️ PERMANEN
+20K ➡️ PERBULAN
+10K ➡️ PERMINGGU```
+*KEUNTUNGAN🤑:*
+```BISA JADI JUAL SEWA BOT
+ON 24JAM
+DLL
+DIJAMIN BALMOD🤑🤑```
+▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬
+```MINAT = LANGSUNG HUBUNGI OWNER BOT!!```
 
-3. Premium + Grup / 30 Hari
-Rp. 20.000 Dana
-Rp. 20.000 Pulsa
+
+
+
+
+
+
+
+
+
 
 wa.me/${owner[0]}
 *Bukan Bot!!!*
@@ -36,7 +66,7 @@ wa.me/${owner[0]}
   products:[{productId:'7487741964584083'}]}],
   headerImage: { productId: '7487741964584083',
   jpegThumbnail: baper },
-  businessOwnerJid: `6289654360447@s.whatsapp.net`
+  businessOwnerJid: `6281251549899@s.whatsapp.net`
   },
   footerText: 'https://aiinne.github.io',
   }},{})
